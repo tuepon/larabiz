@@ -74,7 +74,8 @@ class ListingsController extends Controller
      */
     public function edit($id)
     {
-        return view('editlisting');
+        $listing = Listing::find($id);
+        return view('editlisting')->with('listing', $listing);
     }
 
     /**

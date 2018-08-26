@@ -4,7 +4,7 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card">
-            <div class="card-header">Edit Listing</div>
+            <div class="card-header">Edit Listing <a href="/dashboard" class="pull-right btn btn-default btn-xs">Go Back</a></div>
 
             <div class="card-body">
                 {!!Form::open(['action' => ['ListingsController@update', $listing->id], 'method' => 'POST'])!!}

@@ -4,7 +4,7 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card">
-            <div class="card-header">{{$listing->name}} <a href="/listings" class="pull-right btn btn-default btn-xs">Go Back</a></div>
+            <div class="card-header">{{$listing->name}} <a href="/listings" class="float-right btn btn-default btn-xs">Go Back</a></div>
 
             <div class="card-body">
               <ul class="list-group">
